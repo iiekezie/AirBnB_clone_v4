@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  airbnbclonev4:
+    image: airbnbclonev4
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5002:5002
